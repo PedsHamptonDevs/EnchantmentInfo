@@ -1,15 +1,9 @@
-name: EnchantmentInfoUI
-main: EnchantmentInfoUI\EnchantmentInfoUI
+name: EnchantmentInfo
+main: EnchantmentInfo\EnchantmentInfo
 author: PedsHampton
-version: 1.0.0
+version: 2.0.0
 api: [3.0.0, 3.5.1]
 commands:
   enchantmentinfo:
     aliases: [enchantinfo, einfo, enchinfo]
-    description: Checks Info On A VanillaEnchantment
-    permission: enchantmentinfo.use
-    default: true
-permissions:
-  enchantmentinfo.use
-  default: true
-  description: Allows Player To Check Info On A VanillaEnchantment
+    description: Checks Info On A Enchantment Using EnchantmentInfoUI
